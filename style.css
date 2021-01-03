@@ -1,0 +1,61 @@
+/* CSS files add styling rules to your content */
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap");
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+body {
+  background-color: #f8f9f4;
+}
+
+.body-dark {
+  background-color: #2f3034;
+  color: #c1c1c1;
+}
+
+.body-dark h1{
+    color: #c1c1c1;
+}
+.btn_container {
+  text-align: center;
+  padding-top: 20px;
+}
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  color: #5d3277;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagecontainer {
+  padding-top: 16px;
+}
+.country {
+  color: white;
+  font-size: 20px;
+  font-family: "Bungee Outline", cursive;
+  background-color: #5d3277;
+  margin: 5em;
+  padding: 1.25em;
+  width: 300px;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  box-shadow: 10px 10px 10px #f9edc2;
+}
+.country > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
